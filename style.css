@@ -17,7 +17,7 @@
     display: flex;
     align-items: center;
     padding: 30px;
-    background-color: #272526;
+    background-color: #302d2e;
     color: white;
 
 }
@@ -40,9 +40,10 @@ body{
 } */
 .shopButton
 {
-    padding: 9px;
+    padding: 10px;
     background-color: rgb(219, 75, 22);
     color: white;
+    width: 100%;
 }
 .text{
     font-size:275%;
@@ -57,7 +58,7 @@ body{
     border-radius: 50%;
     display: inline-block;
     position: relative;
-    top: 95px;
+    top: 20px;
   }
   .dot:hover{
     background-color: red;
@@ -68,7 +69,7 @@ body{
   width: 30%;
   padding: 75px;
   height: 8cm;
-  background-color: #272526;
+  background-color: #302d2e;
   }
   .Featured{
     display:inline-flex ;
@@ -78,14 +79,14 @@ body{
     /* align-items: center; */
   }
   section{
-    background-color: #272526;
+    background-color: #302d2e;
     color: white;
     margin-bottom: 50px;
     margin-top: 140px;
     
   }
   body{
-background-color:  #272526;
+background-color:  #302d2e;
   }
   .text3{
     padding: 10px;
@@ -105,3 +106,62 @@ background-color:  #272526;
   .ProdMargin2{
     margin-top: 90px;
   }
+  .productDetails{
+    display:flex;
+    /* border: 2px solid black; */
+    padding: 10px;
+  }
+  .productDetails img{
+    width: 70%;
+  }
+  .productDetails div{
+    border: 1px solid rgb(175, 164, 164);
+    margin: 10px;
+    padding: 25px;
+    border-radius: 8px;
+    margin-top: 30px;
+  }
+  .center{
+    width:100%;
+    /* padding: 70px 0;
+    text-align: center;
+    line-height: 100px;
+    height: 100px; */
+    position: relative;
+    /* font-size: 16px;
+    line-height: 24px; */
+  }
+  .center1{
+    text-align: center;
+    position: relative;
+   top: 200px;
+   font-size: 45px;
+  /* transform: translateY(-1%); */
+  color:white;
+  }
+  .button{
+    width: 5%;
+    height: 1cm;
+    padding: 8px;
+    /* x */
+    margin: 30px;
+    background-color: red;
+  }
+  .checked{
+    color: orange;
+    float: left;
+    margin-top: 218px;
+    padding: 1px;
+  }
+  .button1{
+    padding: 8px;
+    margin: 30px;
+  }
+  .button1:hover{
+    /* color: red; */
+    background-color: red;
+  }
+  .center1 {
+    cursor: pointer;
+  }
+  
