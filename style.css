@@ -69,7 +69,7 @@ body{
     border-radius: 50%;
     display: inline-block;
     position: relative;
-    top: 10px;
+    top: -20px;
   }
   .dot:hover{
     background-color: red;
@@ -88,6 +88,8 @@ body{
     color: white;
     height: 10cm;
     /* align-items: center; */
+    position: relative;
+    top: -10px;
   }
   section{
     background-color: #302d2e;
@@ -98,6 +100,12 @@ body{
   }
   body{
 background-color:  #302d2e;
+  }
+  .top1
+  {
+    position: relative;
+    top: -90px;
+    margin-bottom: -65px;
   }
   .text3{
     padding: 10px;
@@ -121,6 +129,8 @@ background-color:  #302d2e;
     display:flex;
     /* border: 2px solid black; */
     padding: 10px;
+    /* position: relative;
+    top: -10px; */
   }
   .productDetails img{
     width: 70%;
@@ -141,6 +151,7 @@ background-color:  #302d2e;
     /* height: 12cm; */
     margin-bottom: -26px;
     height: 12CM;
+    /* 7 */
   }
   .center{
     width:109%;
@@ -196,6 +207,13 @@ background-color:  #302d2e;
   .rate{
     margin-top: 200px;
   }
-  
+  .top{
+    margin-top: -80px;
+    margin-bottom: -5px;
+  }
+  .custom-icon {
+    font-size: 36px;
+    color: #007bff;
+}
 
   
