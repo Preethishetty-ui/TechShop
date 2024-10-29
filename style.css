@@ -215,5 +215,39 @@ background-color:  #302d2e;
     font-size: 36px;
     color: #007bff;
 }
+.Advantage{
+  /* width: 10cm; */
+  /* padding: -5px; */
+  /* margin-left: 20px; */
+ /* margin: 53.05px;  */
+  display: inline-block;
+  font-size:45px;
+  margin-right: 145.05px;
+  padding-left: 33.05px;
+  /* padding-right: -100px; */
+  position: relative;
+  left: 56px;
+  top: 70px;
+  font-size: 15px;
+  color:  orangered;
+  /* background-color: */
+}
+.brand{
+  display: inline-block;
+  padding: 5px;
+  position: relative;
+  top: -30px;
+  font-size: 20px;
+ color: white;
+}
+.brand1{
+  display: flex;
+  font-size: 15px;
+  position: relative;
+  top:-50px;
+  left:60px;
+  color: white;
+
+}
 
   
