@@ -247,7 +247,155 @@ background-color:  #302d2e;
   top:-50px;
   left:60px;
   color: white;
+}
+/* footer{
+  font-size: 15px;
+  display: flex;
+  background-color: black;
+  color: white;
+}
+footer h1{
+  padding: 10px;
+  margin-left: 40px;
+}
+footer h3
+{
+  margin-left: 300px;
+  margin: 160px;
+  padding: 10px;
+  display: flex;
 
 }
+footer
+{
+ margin-left: 300px; 
+  padding: 10px;
+}
+.footer1{
+  padding: 30px;
+  
+} */
+footer div ul   {
+  display: flex;
+  background-color: black;
+  color: white;
+border: bl;
+}
+.Policies
+{
+  /* display: inline; */
+  color: white;
+}
+/* popup css */
+/* .button {
+  font-size: 1em;
+  padding: 10px;
+  color: #fff;
+  border: 2px solid #06D85F;
+  border-radius: 20px/50px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.button:hover {
+  background: #06D85F;
+} */
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 25%;
+  position: relative;
+  transition:all 5s ease-in-out;
+
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: white;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 30px;
+  /* font-weight: bold; */
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: rgb(207, 115, 115)
+
+}
+.content1{
+  color: white;
+}
+.content2{
+  color: white;
+  background-color: rgb(31, 28, 28);
+  border: 1px solid white;
+  margin: 3px;
+  width: 90%;
+  /* height: 20px; */
+  padding: 13px;
+}
+.close {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  /* right:100px; */
+  padding: 16px;
+  transform: translate(33px, -60%);
+}
+.popup {
+  background-color: rgb(31, 28, 28)
+}
+/* .close:hover {background: #bbb;} */
+.Signup4{
+  margin-left: 28px;
+  padding: 7px;
+  width: 23%;
+  border: none;
+}
+.Signup1{
+  background-color: #204c7b;
+}
+.Signup2{
+  background-color: red;
+}
+.Signup3{
+  background-color: rgb(40, 89, 224);
+}
+.login{
+  display: flex;
+  flex-direction: row;
+
+}
+.login:before,
+.login:after {
+            content:"";
+            flex: 1;
+            border-bottom: 1px solid white;
+            margin: auto;
+
+        }
 
   
