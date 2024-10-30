@@ -100,6 +100,7 @@ body{
   }
   body{
 background-color:  #302d2e;
+
   }
   .top1
   {
@@ -398,4 +399,52 @@ border: bl;
 
         }
 
-  
+.footer1{
+display: block;
+/* padding: -60px; */
+margin-left: 220px;
+padding: 20px;
+position: relative;
+top: -75px;
+left: -70px;
+list-style-type: none;
+}
+.help{
+  margin-bottom: 90px;
+  /* position: relative; */
+  /* left: 10px; */
+  /* padding-left: 155px; */
+  /* display: block; */
+  margin-left: 170px;
+}
+.footer{
+  position: relative;
+  top:60px;
+  left: -150px;
+}
+footer{
+  list-style-type: none;
+}
+  .email{
+  /* margin:90PX;
+  padding-left: 30PX;
+  width: 75%;
+  height: 10%;
+  border: 1PX solid white;
+  border-radius:4px;
+  background: black;
+  padding: 6PX;
+  font-size: 1PX;
+   */ 
+   position: relative;
+   left: -150PX;
+   top: 35PX;
+   width: 95%;
+   height:9% ;
+   border-radius: 6PX;
+} 
+.Subscribe{
+  padding-bottom: 70px;
+  color: white;
+  background-color: orange;
+}
