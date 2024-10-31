@@ -28,8 +28,9 @@
     margin-right: 25px;
 }
 body{
-    margin: 0;
+    margin: 0px;
     padding: 0px;
+
 }
 .post1{
     flex: 1;
@@ -405,25 +406,30 @@ display: block;
 margin-left: 220px;
 padding: 20px;
 position: relative;
-top: -75px;
-left: -70px;
+top: -85px;
+left: -130px;
 list-style-type: none;
+/* text-decoration: none; */
+/* margin-bottom: 90px; */
 }
 .help{
-  margin-bottom: 90px;
+  margin-bottom: 110px;
   /* position: relative; */
   /* left: 10px; */
   /* padding-left: 155px; */
   /* display: block; */
-  margin-left: 170px;
+  margin-left: 110px;
 }
 .footer{
   position: relative;
   top:60px;
-  left: -150px;
+  left: -170px;
+  /* list-style-type: none; */
 }
-footer{
+footer h2{
   list-style-type: none;
+  /* background-color:black; */
+  /* margin-left: 30px; */
 }
   .email{
   /* margin:90PX;
@@ -437,14 +443,48 @@ footer{
   font-size: 1PX;
    */ 
    position: relative;
-   left: -150PX;
+   left: -170PX;
    top: 35PX;
    width: 95%;
    height:9% ;
    border-radius: 6PX;
 } 
-.Subscribe{
+/* .shop{
   padding-bottom: 70px;
   color: white;
   background-color: orange;
-}
+} */
+ .all {
+  position: relative;
+  top: -70px;
+ }
+ .all1
+ {
+  position: relative;
+  top: -80px;
+  color: white;
+  /* margin-bottom: 30px; */
+ }
+ .footer1 li a{font-size:14.5px;
+  text-decoration: none;
+  
+ }
+ .shop{
+  position: relative;
+  top: 40px;
+  left: -170px;
+  width: 55%;
+   height:12% ;
+   border-radius: 6PX;
+   border:none;
+  background-color: orangered;
+ }
+ .social{
+  float: right;
+  margin-left: 60px;
+  /* margin-bottom: 30px; */
+  position: relative;
+  top: -100px;
+  left: -100px;
+  color: white;
+ }
