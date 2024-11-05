@@ -30,6 +30,7 @@
 body{
     margin: 0px;
     padding: 0px;
+    /* margin-bottom: -300px; */
 
 }
 .post1{
@@ -277,9 +278,12 @@ footer
   padding: 30px;
   
 } */
+ footer{
+  background-color: black;
+ }
 footer div ul   {
   display: flex;
-  background-color: black;
+  
   color: white;
 border: bl;
 }
@@ -288,21 +292,6 @@ border: bl;
   /* display: inline; */
   color: white;
 }
-/* popup css */
-/* .button {
-  font-size: 1em;
-  padding: 10px;
-  color: #fff;
-  border: 2px solid #06D85F;
-  border-radius: 20px/50px;
-  text-decoration: none;
-  cursor: pointer;
-  transition: all 0.3s ease-out;
-}
-.button:hover {
-  background: #06D85F;
-} */
-
 .overlay {
   position: fixed;
   top: 0;
@@ -402,89 +391,53 @@ border: bl;
 
 .footer1{
 display: block;
-/* padding: -60px; */
-margin-left: 220px;
-padding: 20px;
-position: relative;
-top: -85px;
-left: -130px;
+
 list-style-type: none;
-/* text-decoration: none; */
-/* margin-bottom: 90px; */
 }
 .help{
   margin-bottom: 110px;
-  /* position: relative; */
-  /* left: 10px; */
-  /* padding-left: 155px; */
-  /* display: block; */
   margin-left: 110px;
-}
-.footer{
-  position: relative;
-  top:60px;
-  left: -170px;
-  /* list-style-type: none; */
 }
 footer h2{
   list-style-type: none;
-  /* background-color:black; */
-  /* margin-left: 30px; */
 }
   .email{
-  /* margin:90PX;
-  padding-left: 30PX;
-  width: 75%;
-  height: 10%;
-  border: 1PX solid white;
-  border-radius:4px;
-  background: black;
-  padding: 6PX;
-  font-size: 1PX;
-   */ 
-   position: relative;
-   left: -170PX;
-   top: 35PX;
-   width: 95%;
-   height:9% ;
+   width: 52%;
+   height:15% ;
    border-radius: 6PX;
 } 
-/* .shop{
-  padding-bottom: 70px;
-  color: white;
-  background-color: orange;
-} */
- .all {
-  position: relative;
-  top: -70px;
- }
  .all1
  {
-  position: relative;
-  top: -80px;
+  /* position: relative;
+  top: -80px; */
   color: white;
+  background-color: black;
+  margin: 6px;
+  padding: 20px;
+  
+  
   /* margin-bottom: 30px; */
+ }
+ .social{
+  float: right;
+  margin: 3px;
+  padding-left: 70px;
+  color: white;
  }
  .footer1 li a{font-size:14.5px;
   text-decoration: none;
   
  }
  .shop{
-  position: relative;
-  top: 40px;
-  left: -170px;
-  width: 55%;
-   height:12% ;
+
+  width: 52%;
+   height:15% ;
    border-radius: 6PX;
    border:none;
   background-color: orangered;
+  margin: 3px;
  }
- .social{
-  float: right;
-  margin-left: 60px;
-  /* margin-bottom: 30px; */
-  position: relative;
-  top: -100px;
-  left: -100px;
-  color: white;
- }
+  .li-css{
+    width: 25%;
+  }
+  
