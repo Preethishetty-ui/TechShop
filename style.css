@@ -1,8 +1,7 @@
 .icon{
     /* display: inline-flex; */
   float: right;
-  
-}
+  }
 .header{
     border: 1px solid black;
     background-color: black;
@@ -438,6 +437,9 @@ footer h2{
   margin: 3px;
  }
   .li-css{
+    width: 25%;
+  }
+  .image{
     width: 25%;
   }
   
